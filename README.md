@@ -33,10 +33,10 @@ FROM Students s
 JOIN Marks m ON s.student_id = m.student_id
 JOIN Subjects sub ON m.subject_id = sub.subject_id;
 🔽 Output:
-Name	   Class   	Subject	  Marks
-Alice	    10A	     Math  	  88
-Alice     10A	    Science 	92
-Bob	      10B	     Math	    76
-Bob	      10B	   English	  85
-Charlie  	10A    Science	  90
-Charlie	  10A	   English	  87
+name	class	subject_name	marks_obtained
+Alice	10A	Math	88
+Alice	10A	Science	92
+Bob	10B	Math	76
+Bob	10B	English	85
+Charlie	10A	Science	90
+Charlie	10A	English	87
